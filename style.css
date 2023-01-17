@@ -120,6 +120,23 @@ header p {
     }
 }
 
+/* 780px */
+
+@media only screen and (min-width : 600px) {
+    .cardscontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid;
+        max-width: 900px;
+    }
+    .twocards {
+        grid-column: 2 / 3;
+        grid-row: 1 /3;
+    }
+}
+
+
+
 
 
 
